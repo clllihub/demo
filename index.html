@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>three.js</title>
+  </head>
+  <body>
+    <canvas id="app"></canvas>
+    <div
+      id="progress-container"
+      style="
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1000;
+        display: none;
+      "
+    >
+      <div
+        id="progress-bar"
+        style="background: #0a74da; width: 0%; height: 20px"
+      ></div>
+      <p id="loading-text">正在加载模型 0%</p>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

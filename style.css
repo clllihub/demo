@@ -1,0 +1,14 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+canvas {
+  display: block;
+}
+
+#loading-text {
+  color: #fff;
+}
